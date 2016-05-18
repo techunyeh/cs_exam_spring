@@ -11,4 +11,19 @@ public interface Greetings{
 -----------------------------------------------------
 
 a)  Explain what an interface is.
+An interface a way of noting what methods a class should have.
+
 b)  Write a complete class for a language speaker of your choice, like ItalianSpeaker, which fully implements the interface.
+
+public interface JapaneseSpeaker{
+public String GoodAfternoon(){
+System.out.println("こんにちは");
+// kon ji wa
+}
+
+
+public String ILoveU(){
+System.out.println("私はあなたを愛して");
+//watashiwa anatao aishite
+}
+}
