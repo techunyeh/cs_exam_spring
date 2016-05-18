@@ -33,7 +33,7 @@ wherever we would use objects of the parent class. Java will automatically refer
 
 c)  Write a "speak" method for Smartphone that states the "name" and "number".  
 public void speak(){
-System.out.println("我的名字是"+name+"號碼是"+number);
+System.out.println("I'm"+name+"Call me with"+number);
 }
 
 d)  What is this called when we write a subclass method which overrides a super class method?
