@@ -16,6 +16,25 @@ public class Technology{
 a)  Write a subclass to Technology with a class called Smartphone.
     Add an additional integer field called number.
     Include a constructor for Samrtphine that takes the "name" and "number" as parameters.
+    int number;
+    public class Smartphone{String name, int number){
+    this.name=name;
+    this.number=number;
+    }
+    
+
+
 b)  Explain what POLYMORPHISM is.
+
+Polymorphism means once we got a child class, we are able to use objects of that child class
+wherever we would use objects of the parent class. Java will automatically refer to the right methods.
+
+
+
 c)  Write a "speak" method for Smartphone that states the "name" and "number".  
+public void speak(){
+System.out.println("我的名字是"+name+"號碼是"+number);
+}
+
 d)  What is this called when we write a subclass method which overrides a super class method?
+Interface
