@@ -26,8 +26,7 @@ a)  Write a subclass to Technology with a class called Smartphone.
 
 b)  Explain what POLYMORPHISM is.
 
-Polymorphism means once we got a child class, we are able to use objects of that child class
-wherever we would use objects of the parent class. Java will automatically refer to the right methods.
+Ooverriding two methods in one class
 
 
 
@@ -37,4 +36,4 @@ System.out.println("I'm"+name+"Call me with"+number);
 }
 
 d)  What is this called when we write a subclass method which overrides a super class method?
-Interface
+ polymorphism
